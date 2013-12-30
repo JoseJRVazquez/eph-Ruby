@@ -1,4 +1,4 @@
-== [EPH Website][home]
+[EPH Website][home]
 ==============
 
 This Website is the main commercial contact page for [EPH Service Co][home]. Suggestions are welcome on improving the code wherever possible. 
@@ -7,9 +7,9 @@ Authors
 ------------
 I'm [Jose vazquez][TheJoseVazquez] and I'm a[ try-hard (as defined for COD)][cod]. I dont consider it an insult. I can be found on the following sites:
 
-[Teh Twitters][TheJoseVazquez]
-[Teh Facebooks][facebook]
-[Teh Githubs][github]
+1. [Teh Twitters][TheJoseVazquez]
+2. [Teh Facebooks][facebook]
+3. [Teh Githubs][github]
 
 Copyright 
 ------------
