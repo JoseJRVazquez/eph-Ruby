@@ -1,10 +1,11 @@
 Eph::Application.routes.draw do
-  get "pages/welcome"
-  get "pages/about"
-  get "pages/products"
-  get "pages/contact"
-  get "pages/meet"
-  get "pages/history"
+  get "about" => 'pages#about'
+  get "products" => 'pages#products'
+  get "contact" => 'pages#contact'
+  get "meet" => 'pages#meet'
+  get "history" => 'pages#history'
+
+  root 'pages#welcome'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

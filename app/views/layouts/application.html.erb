@@ -1,40 +1,48 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Eph</title>
-  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
-  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
-  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+	<head>
+	  <title>Eph</title>
+	  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+	  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+	  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
 
-  <%= csrf_meta_tags %>
+	  <%= csrf_meta_tags %>
 
-  <!-- All in One SEO Pack by Jose 'JR' Vazquez  -->
-    <meta name="description" content="EPH Service Co is a full service plumbing, heating, air conditioning, and electrical company that has been serving the Macomb and McDonough County areas for over 25 years. We provide the highest quality plumbing service in McDonough County." />
+	  <!-- All in One SEO Pack by Jose 'JR' Vazquez  -->
+	    <meta name="description" content="EPH Service Co is a full service plumbing, heating, air conditioning, and electrical company that has been serving the Macomb and McDonough County areas for over 25 years. We provide the highest quality plumbing service in McDonough County." />
 
-    <meta name="keywords" content="plumbers in Macomb, plumbers in McDonough County, Plumber McDonough County,  plumber Macomb Illinois, water heater repair McDonough County, heater repair Macomb, McDonough County Plumbers, plumbers in McDonough County, Plumber Macomb Illinois, drain cleaning, plumber , water line repair, sewer line repair, water heater repair, Rheem, Rheem water heaters, RUUD,  Tank Type, Plumber, Plumbing, Fixtures, Leak Detection, Epoxy, Pipe Bursting, Sump Pumps, Water Pumps, Grease Trap Cleaning, Backflow Prevention, Pressure Regulators, Slab Leak Detection, Gas Leak Detection, Repiping, Trenchless Pipe Repair, Gas Line Repair, plumbing contractors in McDonough County, air conditioner repair, air conditioner Macomb, air conditioner repair Macomb, air conditioner sales,  HVAC contractor, air conditioning sales, electrical repair, electrical repair Macomb, electrical installation, electrical installation macomb, cat5E installation, Cat6 installation, Ethernet installation, Myers submersible pumps, delta faucets,  " />
-    <link rel="canonical" href="http://ephservice.com/" />
+	    <meta name="keywords" content="plumbers in Macomb, plumbers in McDonough County, Plumber McDonough County,  plumber Macomb Illinois, water heater repair McDonough County, heater repair Macomb, McDonough County Plumbers, plumbers in McDonough County, Plumber Macomb Illinois, drain cleaning, plumber , water line repair, sewer line repair, water heater repair, Rheem, Rheem water heaters, RUUD,  Tank Type, Plumber, Plumbing, Fixtures, Leak Detection, Epoxy, Pipe Bursting, Sump Pumps, Water Pumps, Grease Trap Cleaning, Backflow Prevention, Pressure Regulators, Slab Leak Detection, Gas Leak Detection, Repiping, Trenchless Pipe Repair, Gas Line Repair, plumbing contractors in McDonough County, air conditioner repair, air conditioner Macomb, air conditioner repair Macomb, air conditioner sales,  HVAC contractor, air conditioning sales, electrical repair, electrical repair Macomb, electrical installation, electrical installation macomb, cat5E installation, Cat6 installation, Ethernet installation, Myers submersible pumps, delta faucets,  " />
+	    <link rel="canonical" href="http://ephservice.com/" />
 
-    <!--[if lt IE 9]>
-    <script src="http://css3-mediaqueries-js.googlecode.com/files/css3-mediaqueries.js"></script>
-    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+	    <!--[if lt IE 9]>
+	    <script src="http://css3-mediaqueries-js.googlecode.com/files/css3-mediaqueries.js"></script>
+	    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	    <![endif]-->
 
-    <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	    <script>
+	        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-        ga('create', 'UA-43033676-1', 'ephservice.com');
-        ga('send', 'pageview');
+	        ga('create', 'UA-43033676-1', 'ephservice.com');
+	        ga('send', 'pageview');
 
-    </script>
-    <!-- /all in one seo pack -->
+	    </script>
+	    <!-- /all in one seo pack -->
 
-</head>
-<body>
+	</head>
+	<body>
+		<div class="pull-right">
+	
+			<%= link_to "Welcome", "/" %>
+			<%= link_to "About", "/about" %>
+			<%= link_to "Contact", "/contact" %>
+			<%= link_to "Meet", "/meet" %>
+			<%= link_to "Products", "/products" %>
+			<%= link_to "History", "/history" %>
 
-<%= yield %>
-
-</body>
+		</div>
+		<%= yield %>
+	</body>
 </html>
