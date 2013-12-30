@@ -7,7 +7,7 @@ Authors
 ------------
 I'm [Jose vazquez][TheJoseVazquez] and I'm a[ try-hard (as defined for COD)][cod]. I dont consider it an insult. I can be found on the following sites:
 
-[Teh Twitters][Twitter]
+[Teh Twitters][TheJoseVazquez]
 [Teh Facebooks][facebook]
 [Teh Githubs][github]
 
@@ -35,3 +35,5 @@ THE SITE/SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS
 [ruby]:http://rubyonrails.org
 [cod]:http://www.escapistmagazine.com/forums/read/9.303695-What-is-a-try-hard
 [github]:https://github.com/KwikTeck
+[facebook]:https://www.facebook.com/jrvazquez11
+
