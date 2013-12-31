@@ -26,9 +26,10 @@ State: <input type="text" name="state">
 <%= label_tag(:phone, "phone #") %>
 <%= telephone_field(:user, :phone) %>
 </div>
-<%= label_tag(:email, "email") %>
-<%= email_field(:user, :address) %>
-
+<div class="form-group">
+  <%= label_tag(:email, "email") %>
+  <%= email_field(:user, :address, placeholder: 'ex: joe@joe.com') %>
+</div>
 <div class="form-group">
 <%= radio_button_tag(:service, "plumbing") %>
 <%= label_tag(:service_plumbing, "Plumbing") %>
