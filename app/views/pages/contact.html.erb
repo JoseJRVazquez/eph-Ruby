@@ -1,8 +1,56 @@
 <h1>Contact</h1>
-<p>
-	This is the Contact page for EPH, a commercial website using Ruby on Rails.
-</p>
 
 <p>
-	This page is a placeholder. Later on, we will add on to it with a contact form using Twitter Bootstrap.
+	FEEL FREE TO CALL US ANYTIME AT 309-837-3830<br>
+	24-HOUR EMERGENCY SERVICE AVAILABLE*
 </p>
+<div class="null">
+<form role="form" name="input" action="null" method="get">
+<div class="form-group">
+Address Line 1: <input type="text" name="add1">
+</div>
+<div class="form-group">
+Address Line 2: <input type="text" name="add2">
+</div>
+<div class="form-group">
+City: <input type="text" name="city">
+</div>
+<div class="form-group">
+State: <input type="text" name="state">
+</div>
+<div class="form-group">
+<%= label_tag(:name, "name") %>
+<%= text_field(:user, :name) %>
+</div>
+<div class="form-group">
+<%= label_tag(:phone, "phone #") %>
+<%= telephone_field(:user, :phone) %>
+</div>
+<%= label_tag(:email, "email") %>
+<%= email_field(:user, :address) %>
+
+<div class="form-group">
+<%= radio_button_tag(:service, "plumbing") %>
+<%= label_tag(:service_plumbing, "Plumbing") %>
+<%= radio_button_tag(:service, "heating") %>
+<%= label_tag(:service_heating, "Heating/AC") %>
+<%= radio_button_tag(:service, "electrical") %>
+<%= label_tag(:service_electrical, "Electrical") %>
+<%= radio_button_tag(:service, "rentals") %>
+<%= label_tag(:service_rentals, "Equipment or Porta-Potty Rentals") %>
+</div>
+<div class="form-group">
+<%= text_area_tag(:message, "Tell us what your issue is", size: "24x6") %>
+<%= hidden_field_tag(:parent_id, "5") %>
+</div>
+
+<br>
+<input type="submit" value="Submit"><br>
+
+</form>
+</div>
+
+<P>
+	<small>
+		*emergency hourly rates will apply after regular business hours
+	</small>
